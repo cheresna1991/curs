@@ -16,8 +16,8 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <Link to="/" className="logo">
-          <span className="logo-text">AVITO</span>
-          <span className="logo-clone">CLONE</span>
+          <span className="logo-text">SUPER SHOP</span>
+          
         </Link>
 
         <div className="header-actions">
