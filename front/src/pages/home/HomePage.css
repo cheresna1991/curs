@@ -40,9 +40,9 @@
 .no-results {
   text-align: center;
   padding: 60px 20px;
-  background: white;
+  background: rgb(226, 226, 226);
   border-radius: 12px;
-  color: #666;
+  color: #000000;
   font-size: 18px;
 }
 

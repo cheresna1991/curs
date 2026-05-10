@@ -32,7 +32,7 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: #666;
+  color: #000000;
   width: 32px;
   height: 32px;
   display: flex;
@@ -44,7 +44,7 @@
 }
 
 .modal-close:hover {
-  background: #f0f0f0;
+  background: #fcfcfc;
 }
 
 @keyframes fadeIn {

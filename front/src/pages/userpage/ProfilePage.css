@@ -19,7 +19,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 24px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgb(255, 0, 0);
 }
 
 .profile-info {
@@ -32,7 +32,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #eaac66, #764ba2);
   color: white;
   display: flex;
   align-items: center;
@@ -43,7 +43,7 @@
 
 .profile-details h1 {
   margin: 0 0 8px;
-  color: #333;
+  color: #a50000;
   font-size: 28px;
 }
 
@@ -65,7 +65,7 @@
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #00aaff;
+  color: #ff0000;
 }
 
 .stat-label {
@@ -136,7 +136,7 @@
 .cart-item-price {
   margin: 0 0 4px;
   font-weight: 600;
-  color: #00aaff;
+  color: #ff0000;
   font-size: 18px;
 }
 
@@ -181,13 +181,13 @@
 }
 
 .cart-total strong {
-  color: #00aaff;
+  color: #ff0000;
   font-size: 24px;
 }
 
 .checkout-btn {
   padding: 14px 32px;
-  background: #00aaff;
+  background: #ff0000;
   color: white;
   border: none;
   border-radius: 8px;
@@ -198,7 +198,7 @@
 }
 
 .checkout-btn:hover {
-  background: #0099ee;
+  background: #b40000;
 }
 
 @media (max-width: 768px) {

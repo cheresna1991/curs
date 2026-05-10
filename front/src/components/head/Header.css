@@ -1,5 +1,5 @@
 .header {
-  background: white;
+  background: rgb(235, 235, 235);
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   position: sticky;
   top: 0;
@@ -9,12 +9,14 @@
 .header-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 16px 20px;
+  padding: 10px 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
+.image{
+  max-width: 60px;
+}
 .logo {
   text-decoration: none;
   font-size: 24px;
@@ -22,11 +24,11 @@
 }
 
 .logo-text {
-  color: #00aaff;
+  color: #ff0000;
 }
 
 .logo-clone {
-  color: #666;
+  color: #ff0000;
   font-size: 14px;
   margin-left: 4px;
 }
@@ -52,12 +54,12 @@
 
 .cart-badge {
   position: absolute;
-  top: -8px;
+  top: -5px;
   right: -12px;
-  background: #ff4444;
-  color: white;
-  font-size: 12px;
-  padding: 2px 6px;
+  background: #ff0000;
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  padding: 1px 5px;
   border-radius: 10px;
 }
 
@@ -72,7 +74,7 @@
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  color: #333;
+  color: #ff0000;
 }
 
 .user-avatar {
@@ -114,8 +116,8 @@
 }
 
 .btn-login {
-  color: #00aaff;
-  border: 1px solid #00aaff;
+  color: #ff0000;
+  border: 1px solid #f80000;
 }
 
 .btn-login:hover {
@@ -123,12 +125,12 @@
 }
 
 .btn-register {
-  background: #00aaff;
+  background: #ff0000;
   color: white;
 }
 
 .btn-register:hover {
-  background: #0099ee;
+  background: #ee0000;
 }
 
 @media (max-width: 768px) {
